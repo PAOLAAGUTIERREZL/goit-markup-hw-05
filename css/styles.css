@@ -245,19 +245,46 @@ border-radius: 2px;
   text-align: center;
   background-color: #fff; */
 }
-.contenedor-close {
+.close {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.1);
+  align-content: center;
+
+  background-color: white;
   position: absolute;
   top:8px;
   left: 492px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style:solid;
+  border-width: 1px;
+  padding: 7px;
+
 }
-.servicios-iconx {
-  width: 65.32px;
-  height: 70px;
-  fill: black;
+
+/* height: 44px;
+width: 44px;
+left: 0px;
+top: 0px;
+border-radius: 22px;
+align-content: center;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 12px; */
+
+
+
+
+.iconxx {
+  width: 15px;
+  height: 15px;
+  /* fill: rgb(232, 223, 223); */
+  /* border-color: rgba(0, 0, 0, 0.1); */
+  /* border-style:solid; */
+  /* background-color: #212121; */
+
+
+
+
 }
   /******************************************** */
 
@@ -281,6 +308,7 @@ border-radius: 2px;
   width: 270px;
   height: 120px;
   padding: 30px 105px;
+
 }
 .servicios-icon {
   width: 65.32px;
