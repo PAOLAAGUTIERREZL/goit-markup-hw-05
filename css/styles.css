@@ -207,9 +207,10 @@ border-radius: 2px;
 }
 
 .backdrop {  /*****caracteristicas de  la funcionalidad de modal*********** */
-  position:absolute;
+  position:fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 100%;
   display: flex;
